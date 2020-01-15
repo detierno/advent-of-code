@@ -43,3 +43,5 @@ guard :rspec, cmd: "bundle exec rspec" do
   watch(%r{^puzzles/(.+)\.rb}) { |m| "spec/puzzles/#{m[1]}_spec.rb" }
 
 end
+
+$VERBOSE=nil

@@ -19,13 +19,13 @@ RSpec.describe FuelCalculator do
     context 'for mass of 1969' do
       let(:file) { create_file('1969') }
 
-      it { is_expected.to eq 654 }
+      it { is_expected.to eq 966 }
     end
 
     context 'for mass of 100756' do
       let(:file) { create_file('100756') }
 
-      it { is_expected.to eq 33583 }
+      it { is_expected.to eq 50346 }
     end
   end
 

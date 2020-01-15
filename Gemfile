@@ -7,3 +7,5 @@ gem 'guard'
 gem 'guard-rspec'
 gem 'pry'
 gem 'pry-byebug'
+
+$VERBOSE=nil

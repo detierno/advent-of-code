@@ -3,7 +3,7 @@ require_relative '../../../puzzles/day1/fuel_calculator'
 
 RSpec.describe FuelCalculator do
 
-  describe '#compute' do
+  describe '#fuel_total' do
     subject { FuelCalculator.new(file).fuel_total }
 
     def create_file(input)
